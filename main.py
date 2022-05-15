@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-from PIL import Image
+#from PIL import Image
 import time
 
 st.title('Streamlit 超入門')
@@ -45,9 +45,9 @@ condition = st.sidebar.slider('あなたの今の調子は？', 0, 100, 20000)
 'あなたの趣味：',option, 'です。'
 'コンディション：', condition
 
-if st.checkbox('Show Image'):
-    img = Image.open('happy_woman_color.png')
-    st.image(img, caption='フレッシュさん', use_column_width=True)
+#if st.checkbox('Show Image'):
+#    img = Image.open('happy_woman_color.png')
+#    st.image(img, caption='フレッシュさん', use_column_width=True)
 
 
 
